@@ -1,0 +1,25 @@
+Task 2 - Value Iteration
+
+Answers:
+
+
+6) 	Rounds of value iteration for start state to become non-zero: 9 iteration
+    Why?Because the shortest path from the terminal reward to the starting point requires 9 steps and there are no other rewards in the environment, 
+	it would take at least 9 iterations to propagate the reward inference through each grid.
+
+7) 	Which parameter to change: noise
+	Value of the changed parameter: noise <  around 0.015
+
+8)	Parameter values producing optimal policy types:
+	    a) -n 0.0 -d 0.2
+	    b) -n 0.1 -d 0.35
+	    c) -n 0.015 -d 0.9
+	    d) -n 0.1 -d 0.9
+	    e)  -n 0.8 -d 0.8 
+
+9) 	Pros: 								Cons:
+		-											- requires a full policy evaluation for each updated policy (requires more conputationally)
+		- converges within fewer iterations.		-	
+		-											-
+		-											-	
+

@@ -1,0 +1,21 @@
+Task 3 - Q-Learning
+
+Answers:
+
+
+6) 	Training the Q-learning agent without noise:
+        a) Value at state (1, 5):  0.000000 
+        b) Optimal policy :  no
+        c) Name of parameter: -a q -n 0.0 -g BridgeGrid -e 0.9 -d 0.8 -k 6000 -q
+
+7) 	Comparison of values for the start state:
+        1) Value of the start state after 300 episodes: 5.31
+        2) Average returns from the start state: -6.787574
+
+        3) The average returns are lower when there is exploration.
+         In the beginning, the agent is more likely to step into the -100 reward zone due to exploration.
+         However, when considering the value of the start state, it only takes into account the optimal policy, 
+         which suggests moving up or right and avoids stepping into the -100 reward zone.
+
+8)  Faster converging algorithm? value iteration Faster
+
